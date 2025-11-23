@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Base site styles for the 'Web Evolution' theme */
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  /* Use the Outfit font loaded in index.html as the project's default */
+  body {
+    @apply font-outfit bg-gradient-to-b from-slate-900 via-indigo-900 to-slate-800 text-slate-100;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Make headings a little tighter and crisp */
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.01em;
+  }
+}
