@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme';
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        outfit: ['Outfit', ...defaultTheme.fontFamily.sans],
+        
+        science: ['Science Gothic', ...defaultTheme.fontFamily.serif],
+      },
+    },
   },
   plugins: [],
-}
-
+};
