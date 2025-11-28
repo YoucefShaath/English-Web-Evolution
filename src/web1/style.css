@@ -567,6 +567,7 @@
     
     .adr1 h1{
         font-size: 1.6rem;
+        text-align: center;
     }
 
     .explain1{
@@ -606,6 +607,7 @@
     
     .adr2 h1{
         font-size: 1.6rem;
+        text-align: center;
     }
 
     .explain2{
@@ -640,6 +642,7 @@
     
     .adr3 h1{
         font-size: 1.6rem;
+        text-align: center;
     }
 
     .explain3{
@@ -713,6 +716,7 @@
     
     .adr6 h1{
         font-size: 1.6rem;
+        text-align: center;
     }
 
     .explain6{
@@ -735,5 +739,6 @@
 
     .explain6 #alert{
         font-size: 1.3rem;
+        text-align: center;
     }   
 }
