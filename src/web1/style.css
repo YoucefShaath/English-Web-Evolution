@@ -20,7 +20,8 @@
 }
 
 .title{
-   background: linear-gradient(to right , white , rgb(245, 181, 245) , rgb(194, 194, 116));
+   /*background: linear-gradient(to right , white , rgb(245, 181, 245) , rgb(194, 194, 116));*/
+   background: linear-gradient(90deg, #B8A0E8 0%, #D4B8E8 33%, #E8D4B8 66%, #E8D89E 100%);
    -webkit-background-clip: text;   
   background-clip: text;          
   color: transparent;
@@ -51,6 +52,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     background: rgba(146, 142, 142, 0.15);
+     backdrop-filter: blur(15px);
     }
 
 .lists li{
@@ -80,7 +82,8 @@
 }
 
 .title2 h1{
-    background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));
+    /*background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));*/
+    background: linear-gradient(to top , #F5E6B3 0%, #C9E3B8 50%, #7DE0C8 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -106,7 +109,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center; 
-    background: linear-gradient(to right , white , rgb(245, 181, 245) , rgb(194, 194, 116));
+    background: linear-gradient(90deg, #B8A0E8 0%, #D4B8E8 33%, #E8D4B8 66%, #E8D89E 100%);
+
    -webkit-background-clip: text;   
   background-clip: text;          
   color: transparent;
@@ -167,7 +171,8 @@
 }
 
 .title3 h1{
-    background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));
+    /*background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));*/
+    background: linear-gradient(to top , #F5E6B3 0%, #C9E3B8 50%, #7DE0C8 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -195,7 +200,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center; 
-    background: linear-gradient(to right , white , rgb(245, 181, 245) , rgb(194, 194, 116));
+    background: linear-gradient(90deg, #B8A0E8 0%, #D4B8E8 33%, #E8D4B8 66%, #E8D89E 100%);
+
    -webkit-background-clip: text;   
   background-clip: text;          
   color: transparent;
@@ -249,7 +255,8 @@
 }
 
 .title4 h1{
-    background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));
+    /*background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));*/
+    background: linear-gradient(to top , #F5E6B3 0%, #C9E3B8 50%, #7DE0C8 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -277,7 +284,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center; 
-    background: linear-gradient(to right , white , rgb(245, 181, 245) , rgb(194, 194, 116));
+    background: linear-gradient(90deg, #B8A0E8 0%, #D4B8E8 33%, #E8D4B8 66%, #E8D89E 100%);
+
    -webkit-background-clip: text;   
   background-clip: text;          
   color: transparent;
@@ -330,7 +338,8 @@
 }
 
 .title5 h1{
-    background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));
+    /*background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));*/
+    background: linear-gradient(to top , #F5E6B3 0%, #C9E3B8 50%, #7DE0C8 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -362,7 +371,7 @@
 
 .half1 .google-photo{
     margin-left: 30px;
-    width: 60%;
+    width: 40%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -384,7 +393,7 @@
 
 .half2 .yahoo-photo{
     margin-left: 37px;
-    width: 60%;
+    width: 40%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -416,7 +425,7 @@
 }
 
 .title6 h1{
-    background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));
+    background: linear-gradient(to top , #F5E6B3 0%, #C9E3B8 50%, #7DE0C8 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -445,7 +454,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center; 
-    background: linear-gradient(to right , white , rgb(245, 181, 245) , rgb(194, 194, 116));
+    background: linear-gradient(90deg, #B8A0E8 0%, #D4B8E8 33%, #E8D4B8 66%, #E8D89E 100%);
+
    -webkit-background-clip: text;   
   background-clip: text;          
   color: transparent;
@@ -478,14 +488,15 @@
 .explain6 h1{
     font-size: 2.3rem;
     font-weight: 700;
-    background: linear-gradient(to top, rgb(201, 214, 158), rgb(194, 194, 116));
+    background: linear-gradient(90deg, #B8A0E8 0%, #D4B8E8 33%, #E8D4B8 66%, #E8D89E 100%);
+
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     position: relative;
 }
 
-.explain6 h1::after{
+/*.explain6 h1::after{
     content: '';
     position: absolute;
     left: 0;
@@ -494,11 +505,11 @@
     height: 2px;
     border-radius: 2px;
     background-color: white;
-}
+}*/
 
 #alert{
     font-size: 3rem;
-    background: linear-gradient(to right, rgb(224, 10, 10), rgb(234, 158, 158));
+    background: linear-gradient(to left, rgb(224, 10, 10), rgb(234, 158, 158));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -527,27 +538,35 @@
 
     .smalll{
         height: 100%;
-        width: 60%;
+        width: 70%;
         /*background-color: blue;*/
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-right: 17px;
     }
     
     .title h1{
         font-size: 1rem;
         font-weight: 900;
         letter-spacing: 0px;
-        margin-left: 25px;
+        /*margin-left: 25px;*/
+        text-align: center;
     }
 
     .lists{
-        width: 90%;
+        width: 100%;
+         backdrop-filter: blur(15px);
     }
 
     .lists li{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .lists h3{
+        font-size: 1.4rem;
     }
 
     .title2{
@@ -580,6 +599,7 @@
     }
     .explain1 li{
         font-size: 1rem;
+        list-style: none;
     }
 
     .photo1 {
