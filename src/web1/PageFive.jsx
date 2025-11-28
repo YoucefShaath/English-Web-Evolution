@@ -1,6 +1,6 @@
 import background1 from '../assets/background1.jpg'
 import google from '../assets/google-1998-04.png'
-import yahoo from '../assets/yahoo_desing.jpg'
+import yahoo from '../assets/yahoo_desing.png'
 function PageFive(){
     return(
         <div className="big5" style={{backgroundImage:`url(${background1})`}}>
@@ -9,13 +9,13 @@ function PageFive(){
           </div>
           <div className="content5">
             <div className="half1">
-                <h1 style={{color:"white"}}>Google in 1998</h1>
+                <h1 style={{color:"white" , fontSize:"1.3rem" , fontWeight:"600"}}>Google in 1998</h1>
                 <div className="google-photo" style={{backgroundImage:`url(${google})`}}>
                   
                 </div>
             </div>
             <div className="half2">
-                <h1 style={{color:"white"}}>Yahoo in 1998</h1>
+                <h1 style={{color:"white" , fontSize:"1.3rem" , fontWeight:"600"}}>Yahoo in 1998</h1>
                 <div className="yahoo-photo" style={{backgroundImage:`url(${yahoo})`}}>
                   
                 </div>
