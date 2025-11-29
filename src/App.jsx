@@ -2,7 +2,6 @@ import Presentation1 from "./presentation/presentation1.jsx";
 import Presentation2 from "./presentation/presentation2.jsx";
 import Web4 from "./Web4/web4.jsx";
 import Web1 from "./web1/web1.jsx";
-import './web1/style.css'
 
 function ScrollButtons() {
   const scrollByVh = (dir = 1) => {
