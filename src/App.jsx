@@ -2,6 +2,8 @@ import Presentation1 from "./presentation/presentation1.jsx";
 import Presentation2 from "./presentation/presentation2.jsx";
 import Web4 from "./Web4/web4.jsx";
 import Web1 from "./web1/web1.jsx";
+import './web1/style.css';
+import Web2 from  "./Web2/web2.jsx";
 
 function ScrollButtons() {
   const scrollByVh = (dir = 1) => {
@@ -49,6 +51,7 @@ function App() {
     <>
       <Presentation1 />
       <Web1/>
+      <Web2 />
       <Web4 />
       <Presentation2 />
       <ScrollButtons />
