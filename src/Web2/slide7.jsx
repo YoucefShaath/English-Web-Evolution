@@ -74,7 +74,7 @@ export default function Seventhslide() {
       </svg>
 
       <div className="hidden xl:block absolute -left-36 rotate-[-90deg] text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-yellow-200">
-        <h1 className="pl-28">Web 2.0 vs Web 1.0</h1>
+        <h1 className="pl-28">5.Web 2.0 Examples</h1>
       </div>
 
       <div className="w-full md:max-w-4xl mx-auto mt-10 z-20">

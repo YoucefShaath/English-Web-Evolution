@@ -68,7 +68,7 @@ export default function Thirdslide() {
       </svg>
 
       <h1 className="hidden  md:block absolute -left-36 rotate-[-90deg] text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-yellow-200">
-        Key Features of Web 2.0
+        2.Key Features of Web 2.0
       </h1>
 
       <div className="w-full max-w-4xl mx-auto mt-10 z-20">

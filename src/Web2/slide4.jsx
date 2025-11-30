@@ -68,7 +68,7 @@ export default function Forthslide() {
       </svg>
 
       <div className="  hidden  md:block absolute -left-48 rotate-[-90deg] text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-yellow-200">
-        <h1 className="pl-28">Advantages and </h1>{" "}
+        <h1 className="pl-28">3.Advantages and </h1>{" "}
         <h1> Disadvantages of Web 2.0</h1>
       </div>
       <h1 className="text-center text-3xl md:text-6xl lg:text-7xl md:ml-[23%] font-extrabold font-scienceGothic tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 via-pink-200 to-yellow-200">
