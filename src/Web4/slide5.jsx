@@ -65,7 +65,10 @@ export default function Slide5web4() {
           <path d="M0 200 L1440 200 M0 400 L1440 400" />
         </g>
       </svg>
-      <h1 className="hidden md:block absolute left-[-8%] rotate-[-90deg] text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-yellow-200"></h1>
+      <h1 className="hidden md:block absolute left-[-8%] rotate-[-90deg] text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-yellow-200">
+        {" "}
+        2.Ultimate Interfaces
+      </h1>
       <h1 className="text-4xl md:text-6xl lg:text-7xl md:ml-[23%] font-extrabold font-scienceGothic tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 via-pink-200 to-yellow-200">
         BCI & Voice
       </h1>
