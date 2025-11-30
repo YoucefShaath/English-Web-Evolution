@@ -3,7 +3,7 @@ import Presentation2 from "./presentation/presentation2.jsx";
 import Web4 from "./Web4/web4.jsx";
 import Web1 from "./web1/web1.jsx";
 import Web2 from  "./Web2/web2.jsx";
-import Web3 from "./Web3/web3.jsx";
+import Web3 from "./Web3/Web3.jsx";
 
 function ScrollButtons() {
   const scrollByVh = (dir = 1) => {
