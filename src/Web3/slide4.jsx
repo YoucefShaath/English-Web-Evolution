@@ -81,7 +81,7 @@ export default function Slide4Web3() {
         transactions. Users can own tokens and NFTs, while smart contracts automate
         agreements and applications without intermediaries.
       </p>
-      <div className="flex justify-center items-center gap-4 mt-9">
+      <div className="flex justify-center items-center flex-col md:flex-row gap-4 mt-9">
         <img
         src="https://image.binance.vision/editor-uploads-original/9c15d9647b9643dfbc5e522299d13593.png"
         alt="web evolution"
@@ -91,8 +91,7 @@ export default function Slide4Web3() {
           <img
         src="https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F29.2F04d78b62-49da-4082-b3b1-7c07be6a8448.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/bitcoin-cest-quoi-comment-ca-marche-1280368.jpg"
         alt="web evolution"
-        width={380}
-        className="md:ml-[23%] rounded-3xl border-1 shadow-sm shadow-white"
+        className="md:ml-[23%] rounded-3xl border-1 shadow-sm shadow-white w-80"
       />
 
       </div>
