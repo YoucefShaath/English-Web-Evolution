@@ -72,7 +72,7 @@ export default function Intro() {
 
       <div className="relative z-10 ml-[26%] w-[70%] md:max-w-6xl h-full flex flex-col justify-center items-center md:ml-[37%]">
         <h1 className="text-xl text-center md:text-2xl lg:text-3xl font-extrabold font-scienceGothic tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 via-pink-200 to-yellow-200">
-          Web 4.0 Slide Ideas (The Symbiotic / Intelligent Web)
+          Web 4.0 (The Symbiotic / Intelligent Web)
         </h1>
 
         <div className="mt-8 w-full flex justify-center">
